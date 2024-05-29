@@ -302,7 +302,7 @@ class _LoginPageState extends State<LoginPage> {
                                 side: BorderSide(
                                     color: Colors.blue.shade700),
                               ),
-                              child: Row(
+                              child: const Row(
                                 mainAxisAlignment:
                                 MainAxisAlignment.center,
                                 children: [
@@ -310,7 +310,7 @@ class _LoginPageState extends State<LoginPage> {
                                   //  an External Package used here
                                   //  Font_awesome_flutter package used
                                   FaIcon(FontAwesomeIcons.google),
-                                  const Text(
+                                  Text(
                                     ' Login with Google',
                                     style: TextStyle(
                                         fontWeight: FontWeight.w600),
